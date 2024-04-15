@@ -1,0 +1,21 @@
+header{
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+main{
+  height: 100%;
+}
+.card{
+  width: 300px;
+  height: 450px;
+}
+.card-header{
+  height: 310px;
+}
+.btn-link{
+  color: black;
+}
+.btn-link:hover,.btn-link:active{
+  color: rgba(0, 0, 0, 0.8);
+}
