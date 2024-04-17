@@ -62,7 +62,7 @@ export default function App(){
     }
 
     function handleRemoveCartItems(event){
-        const updatedCartItems = cartItems.filter(item => { return item.id !== event.target.id});
+        const updatedCartItems = cartItems.filter(item => { return item.id != event.target.id});
         setCartItems(updatedCartItems);
         getCartCount();
         console.log(cartItems)
